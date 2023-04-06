@@ -2,6 +2,10 @@
   "name": "sunrise",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -48,8 +52,9 @@
     "sass": "^1.49.7",
     "sass-loader": "^10",
     "typescript": "~3.9.3",
-    "vue-cli-plugin-i18n": "^0.6.1",
-    "vue-jest": "^5.0.0-0"
+    "vue-cli-plugin-i18n": "~2.3.1",
+    "vue-jest": "^5.0.0-0",
+    "vue-template-compiler": "^2.7.14"
   },
   "eslintConfig": {
     "root": true,
