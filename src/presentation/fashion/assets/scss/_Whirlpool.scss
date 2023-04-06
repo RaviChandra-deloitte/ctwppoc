@@ -1,0 +1,21 @@
+@import "global";
+
+
+// Theme Color
+$theme-color: #eeb111;
+$theme-primary-bg-color: #f2f2f2;
+$theme-secondary-bg-color: #fdbb41;
+$theme-body-font-color: #222;
+$theme-dark-font-color: $black;
+$theme-light-font-color: $white;
+$theme-greyed-font-color: #5b5b5b;
+
+
+// Button colors
+$primary-button-bg-color: $theme-color;
+$primary-button-font-color: $black;
+$secondary-button-bg-color: $theme-body-font-color;
+$secondary-button-font-color: $theme-light-font-color;
+
+$primary-button-bg-hover-color: #d99e02;
+$secondary-button-bg-hover-color: #5b5b5b;

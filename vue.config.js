@@ -18,7 +18,7 @@ module.exports = {
     loaderOptions: {
       sass: {
         additionalData: `
-          @import "presentation/assets/scss/_global.scss";
+          @import "presentation/assets/scss/_Whirlpool.scss";
         `,
       },
     },
